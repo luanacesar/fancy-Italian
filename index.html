@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>2020 Internship Exercise - Menu</title>
+    <meta charset="UTF-8" />
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+      crossorigin="anonymous"
+    />
+    <!-- Optional JavaScript; choose one of the two! -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+      crossorigin="anonymous"
+    ></script>
+    <!-- google fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./src/styles.css" />
+  </head>
+
+  <body>
+    <section id="header-restaurante">
+      <header>
+        <h1 id="header-h1">Fancy <br />Italian <br />Restaurant</h1>
+        <div id="checkMybox">
+            <label for="myCheck" class="disclaimer spicy">Spicy:</label> 
+            <input type="checkbox" id="myCheck" checked/>
+        </div>
+      </header>
+    </section>
+    <main>
+    <section id="starters">
+      <h2>Starters</h2>
+      <h4>Start with something good</h4>
+      <div class="row">
+        <div class="column col-lg-4 col-md-6">
+          <div class="card">
+            <div class="card-header">
+              <h3 id="startersName0"></h3>
+            </div>
+            <div class="card-body">
+              <img src="https://images.fidhouse.com/fidelitynews/wp-content/uploads/sites/6/2016/02/1455709107_f9190d95cb7ffa90ce4db907791c06299e81fcad-936409921.jpg?w=580"
+              alt="Avatar"
+              style="width: 80%;"/>
+              <p id="img0"></p>
+              <p id="desc0"></p>
+              <p id="pr0"></p>
+              <p id="sp0"></p>
+            </div>
+          </div>
+        </div>
+        <div class="column col-lg-4 col-md-6">
+          <div class="card">
+            <div class="card-header">
+              <h3 id="startersName1"></h3>
+            </div>
+            <div class="card-body">
+              <img
+                src="https://www.thespruceeats.com/thmb/ZlrpBw3TcyA85djaon48owmG7MA=/2500x1667/filters:fill(auto,1)/calamari-2500-56a20fb93df78cf77271869d.jpg"
+                alt="Avatar"
+                style="width: 80%;"
+              />
+              <p id="desc1"></p>
+              <p id="pr1"></p>
+              <p id="sp1"></p>
+            </div>
+          </div>
+        </div>
+        <div class="column col-lg-4 col-md-6">
+          <div class="card">
+            <div class="card-header">
+              <h3 id="startersName2"></h3>
+            </div>
+            <div class="card-body">
+              <img
+                src="https://www.seasonsandsuppers.ca/wp-content/uploads/2018/11/meatball-soup-5B.jpg"
+                alt="Avatar"
+                style="width: 80%;"
+              />
+              <p id="desc2"></p>
+              <p id="pr2"></p>
+              <p id="sp2"></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="pasta">
+      <h2>Pasta</h2>
+      <h4>It's always a good choice </h4>
+      <div class="row">
+        <div class="column col-lg-4 col-md-6">
+          <div class="card">
+            <div class="card-header">
+              <h3 id="pastaName0"></h3>
+            </div>
+            <div class="card-body">
+              <img
+                src="https://assets.myfoodandfamily.com/adaptivemedia/rendition/552582-1500x1000.tif?id=c486f3fbe7b6dd64d930787cb033548ff3208b7c&ht=650&wd=1004"
+                alt="Avatar" style="width:80%">
+                <p id="pastaDesc0"></p>
+                <p id="pastaPrice0"></p>
+                <p id="pastaSpicy0"></p>
+            </div>
+          </div>
+        </div>
+        <div class="column col-lg-4 col-md-6">
+          <div class="card">
+            <div class="card-header">
+                <h3 id="pastaName1"></h3>
+            </div>
+            <div class="card-body">
+              <img src="https://feelgoodfoodie.net/wp-content/uploads/2019/06/Cheese-Stuffed-Shells-5-640x427.jpg"
+                alt="Avatar" style="width:80%">
+                <p id="pastaDesc1"></p>
+                <p id="pastaPrice1"></p>
+                <p id="pastaSpicy1"></p>
+            </div>
+          </div>
+        </div>
+        <div class="column col-lg-4 col-md-6">
+          <div class="card">
+            <div class="card-header">
+                <h3 id="pastaName2"></h3>
+            </div>
+            <div class="card-body">
+              <img
+                src="https://food.fnr.sndimg.com/content/dam/images/food/fullset/2017/1/18/0/FNM030117_Baked-Spinach-Ravioli_s4x3.jpg.rend.hgtvcom.826.620.suffix/1484758943225.jpeg"
+                alt="Avatar" style="width:70%">
+                <p id="pastaDesc2"></p>
+                <p id="pastaPrice2"></p>
+                <p id="pastaSpicy2"></p>
+            </div>
+          </div>
+        </div>
+        <div class="column col-lg-4 col-md-6">
+          <div class="card">
+            <div class="card-header">
+                <h3 id="pastaName3"></h3>
+            </div>
+            <div class="card-body">
+              <img
+                src="https://www.savingdessert.com/wp-content/uploads/2020/01/Stuffed-Manicotti-with-Sausage-and-Spinach-1.jpg"
+                alt="Avatar" style="width:80%">
+                <p id="pastaDesc3"></p>
+                <p id="pastaPrice3"></p>
+                <p id="pastaSpicy3"></p>
+            </div>
+          </div>
+        </div>
+        <div class="column col-lg-4 col-md-6">
+          <div class="card">
+            <div class="card-header">
+                <h3 id="pastaName4"></h3>
+            </div>
+            <div class="card-body">
+              <img src="https://www.budgetbytes.com/wp-content/uploads/2019/10/Baked-Ziti-Front-Scoop.jpg" alt="Avatar"
+                style="width:70%">
+                <p id="pastaDesc4"></p>
+                <p id="pastaPrice4"></p>
+                <p id="pastaSpicy4"></p>
+            </div>
+          </div>
+        </div>
+        <div class="column col-lg-4 col-md-6">
+          <div class="card">
+            <div class="card-header">
+                <h3 id="pastaName5"></h3>
+            </div>
+            <div class="card-body">
+              <img src="https://hips.hearstapps.com/delish/assets/18/08/1519155464-eggplant-parm-horizontal.jpg"" alt="
+                Avatar" style="width:80%">
+                <p id="pastaDesc5"></p>
+                <p id="pastaPrice5"></p>
+                <p id="pastaSpicy5"></p>
+            </div>
+          </div>
+        </div>
+        <div class="column col-lg-4 col-md-6">
+          <div class="card">
+            <div class="card-header">
+                <h3 id="pastaName6"></h3>
+            </div>
+            <div class="card-body">
+              <img src="https://www.askchefdennis.com/wp-content/uploads/2020/08/chicken-parm-with-linguine-13.jpg"
+                alt="Avatar" style="width:71%">
+                <p id="pastaDesc6"></p>
+                <p id="pastaPrice6"></p>
+                <p id="pastaSpicy6"></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="pizza">
+      <div id="myPizza">
+        <h2>Pizza</h2>
+        <h4>It is everyone favourite plate</h4>
+        <div class="row">
+          <div class="column col-lg-4 col-md-6">
+            <div class="card">
+              <div class="card-header">
+                <h3 id="pName0"></h3>
+              </div>
+              <div class="card-body">
+                <img src="https://wearenotmartha.com/wp-content/uploads/Basil-and-Garlic-White-Pizza-10-1-1024x683.jpg"
+                  alt="Avatar" style="width:80%">
+                  <p id="pDesc0"></p>
+                  <p id="pPrice0"></p>
+                  <p id="pSpicy0"></p>
+              </div>
+            </div>
+          </div>
+          <div class="column col-lg-4 col-md-6">
+            <div class="card">
+              <div class="card-header">
+                  <h3 id="pName1"></h3>
+              </div>
+              <div class="card-body">
+                <img src="https://149366112.v2.pressablecdn.com/wp-content/uploads/2017/07/margharita.jpg" alt="Avatar"
+                  style="width:80%">
+                  <p id="pDesc1"></p>
+                  <p id="pPrice1"></p>
+                  <p id="pSpicy1"></p>
+              </div>
+            </div>
+          </div>
+          <div class="column col-lg-4 col-md-6">
+            <div class="card">
+              <div class="card-header">
+                  <h3 id="pName2"></h3>
+              </div>
+              <div class="card-body">
+                <img
+                  src="https://i2.wp.com/smittenkitchen.com/wp-content/uploads//2018/10/crispy-spinach-pizza.jpg?fit=1200%2C800&ssl=1"
+                  alt="Avatar" style="width:75%">
+                  <p id="pDesc2"></p>
+                  <p id="pPrice2"></p>
+                  <p id="pSpicy2"></p>
+              </div>
+            </div>
+          </div>
+          <div class="column col-lg-4 col-md-6">
+            <div class="card">
+              <div class="card-header">
+                  <h3 id="pName3"></h3>
+              </div>
+              <div class="card-body">
+                <img
+                  src="https://galbanicheese.com/wp-content/uploads/2019/09/Caprese-Pizza-with-Galbani-Fresh-Mozzarella-72DPI-e1476983520634-800x600.jpg"
+                  alt="Avatar" style="width:80%">
+                  <p id="pDesc3"></p>
+                  <p id="pPrice3"></p>
+                  <p id="pSpicy3"></p>
+              </div>
+            </div>
+          </div>
+          <div class="column col-lg-4 col-md-6">
+            <div class="card">
+              <div class="card-header">
+                  <h3 id="pName4"></h3>
+              </div>
+              <div class="card-body">
+                <img
+                  src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/190226-buffalo-chicken-pizza-370-1552084943.jpg"
+                  alt="Avatar" style="width:90%">
+                  <p id="pDesc4"></p>
+                  <p id="pPrice4"></p>
+                  <p id="pSpicy4"></p>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+    </main>
+    <footer>
+      <ul class="disclaimers">
+        <li class="disclaimer spicy">= Spicy</li>
+      </ul>
+    </footer>
+    <script src="src/index.js"></script>
+  </body>
+</html>
