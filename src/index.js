@@ -1,5 +1,7 @@
 import "./styles.css";
-import menu from "./menu.js";
+//import menu from "./menu";
+
+var menu = import("menu");
 
 const menuItems = menu.items;
 
