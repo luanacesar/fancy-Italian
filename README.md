@@ -1,4 +1,4 @@
-# 2021 Internship Menu Exercise
+# Italian restaurant
 
 Tackle the following steps to create a menu for a "Fancy Italian Restaurant".
 
